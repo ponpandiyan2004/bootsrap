@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background: #c6fbff;
+}
+.header{
+    display: flex;
+    gap: 30px;
+}
+.header1{
+    margin-left: 400px;
+    margin-top: 10px;
+}
+.main{
+    margin-left: 35%;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    padding: 10px;
+}
+.main>.items{
+    margin-right: 20px;
+}
+.main::-webkit-scrollbar{
+    width: 0;
+    height: 0;
+}
+.main>.items>img{
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+}
+.over{
+    text-decoration:line-through;
+}
+.cardscroll{
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+.cardscroll::-webkit-scrollbar{
+    width:0;
+    height:0;
+}
+.description>p{
+    font-size: 24px;
+}
+.description>span{
+    font-size: 30px;
+}
+.d-flex{
+    gap: 10px;
+}
+.description{
+    margin-top: 300px;
+}
+.description>.line{
+    text-decoration: line-through;
+}
